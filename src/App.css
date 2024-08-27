@@ -1,0 +1,51 @@
+body {
+  background-color: #EAEAEA; 
+  margin: 0;
+  padding: 0; 
+}
+ 
+.css-pm0l8z-MuiButtonBase-root-MuiButton-root:hover {
+  text-decoration: underline;
+  text-decoration-color: #03A7D3;
+  text-decoration-style: solid;
+  text-decoration-thickness: 2px;
+  background: none;
+}
+.css-1s88eci-MuiImageList-root{
+  margin-bottom: 0;
+} 
+
+@media (max-width: 768px) {
+  #MyCV {
+    padding: .3em;
+    background-color: #07D3;
+  }
+  .css-pm0l8z-MuiButtonBase-root-MuiButton-root {
+    font-size: .6em;
+    min-width: 50px;
+  }
+
+  #info {
+    width: 100%;
+    padding: 2em;
+  }
+
+ #textInfoSubTitle {
+    
+    color:#fff;
+  }
+
+  .css-1j5e2we-MuiTypography-root {
+    font-size: 1rem;
+    color:#fff;
+    }
+  }
+
+  @media (max-width:600px) {
+    a{
+      padding: "1px";
+    }}
+    @media (max-width:960px) {
+      a{
+        padding: "1px";
+      }}
