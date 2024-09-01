@@ -26,7 +26,7 @@ const images = [
   {
     label: "Rwad-Aqar",
     imgPath: RwadAqar,
-    link: "https://rwadaqar.com/",
+    link: "https://wedyaan.github.io/rwad-aqar/",
   },
   {
     label: "mass-Media",
