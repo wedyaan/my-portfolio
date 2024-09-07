@@ -14,10 +14,10 @@ function App() {
   return (
     <>
     <Box>
-      <Nav/>
+      <Nav />
       <Skills/>
-      <Projects/>
-      <Footer/>
+      <Projects />
+      <Footer  />
     </Box>
     
     </>

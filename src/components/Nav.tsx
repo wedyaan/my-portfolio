@@ -3,6 +3,8 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 import imageSrc from "../assets/background.jpg";
+// import { Link as ScrollLink } from "react-scroll";
+// import { Link as RouterLink } from "react-router-dom";
 
 const MainBox = {
   display: "grid",
@@ -35,17 +37,17 @@ const NavLinks = {
   background: "transparent",
   border: "none",
   marginTop: "3%",
-  boxShadow: "2px 2px 5px rgba(40, 1, 215, 0.5)", 
+  boxShadow: "2px 2px 5px rgba(40, 1, 215, 0.5)",
 };
 
 const buttonStyle = {
   color: "#fff",
   flex: 1,
   marginTop: "1em",
-  '&:hover': {
-    textDecoration: 'underline',
-    textDecorationColor: '#03A7D3',  
-    textDecorationThickness: '3px',  
+  "&:hover": {
+    textDecoration: "underline",
+    textDecorationColor: "#03A7D3",
+    textDecorationThickness: "3px",
   },
 };
 
@@ -99,10 +101,16 @@ export default function Nav(): JSX.Element {
     <Box sx={MainBox}>
       <Typography sx={logo}>Wedyan</Typography>
       <AppBar position="static" sx={NavLinks}>
-        <Toolbar>
-          <Button  sx={buttonStyle}>Who's am I</Button>
+        <Toolbar sx={{display:'flex' , justifyContent:'space-around'}}>
+          <Link href="#info">
+            <Button sx={buttonStyle}>Who's am I</Button>
+          </Link>
+          <Link href="#skills">
           <Button sx={buttonStyle}>Skills</Button>
+          </Link>
+          <Link href="#projects">
           <Button sx={buttonStyle}>Projects</Button>
+          </Link>
         </Toolbar>
       </AppBar>
 
@@ -149,8 +157,6 @@ export default function Nav(): JSX.Element {
           </Link>
         </Box>
       </Box>
-
-    
     </Box>
   );
 }

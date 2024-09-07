@@ -11,6 +11,7 @@ const MainBox = {
   backgroundSize: 'cover',
   backgroundPosition: 'center',
   padding : '2em 0',
+ 
 
  
 };
@@ -32,7 +33,7 @@ const Skills = () => {
   ];
 
   return (
-    <Box sx={MainBox}>
+    <Box sx={MainBox} id="skills">
       <Typography variant="h4" sx={TitleText}>
         Skills
       </Typography>
@@ -54,11 +55,8 @@ const Skills = () => {
               borderRadius: '50%',
               padding: '1.5em',
               fontSize: 28,
-              backgroundColor: '#fff',
-              transition: 'background-color 0.3s',
-              '&:hover': {
-                backgroundColor: '#03A7D3',
-              },
+               transition: 'background-color 0.3s',
+            
               
             }}
           >

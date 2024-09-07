@@ -9,7 +9,7 @@ export default function Footer() {
   };
 
   return (
-    <div
+    <div  
       style={{
         backgroundColor: "#333",
         color: "#fff",

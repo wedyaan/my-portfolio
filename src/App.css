@@ -2,7 +2,15 @@ body {
   background-color: #EAEAEA; 
   margin: 0;
   padding: 0; 
+ 
 }
+html {
+  scroll-behavior: smooth;
+}
+#root{
+  width: fit-content;
+}
+ 
  
 .css-pm0l8z-MuiButtonBase-root-MuiButton-root:hover {
   text-decoration: underline;

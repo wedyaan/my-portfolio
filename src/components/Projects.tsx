@@ -84,6 +84,7 @@ export default function Projects() {
 
   return (
     <Box
+    id="projects"
       sx={{
         display: "flex",
         flexDirection: "column",
